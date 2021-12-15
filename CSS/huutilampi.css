@@ -1,0 +1,38 @@
+#navbarNavDropdown{
+    position: fixed;
+    right: 3%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.images {
+    text-align: center;
+    padding-bottom: 3vh;
+}
+
+.accordion{
+    text-align: center;
+}
+
+.accordion-button {
+    font-size: 0.7em;
+}
+
+#collapseTwo img {
+    width: 25vw;
+}
+
+#collapseThree img {
+    width: 25vw;
+}
+
+#collapseThree .accordion-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.table {
+    width: 25vw;
+}
