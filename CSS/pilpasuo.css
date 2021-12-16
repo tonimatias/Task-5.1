@@ -19,29 +19,29 @@
 
 .pilpasuoImg {
     padding: 1em;
+   
 }
 
 #pilpasuoReitti {
-    height: 640px;
-    width: 40vw;
+    /* height: 640px; */
+    width: 35vw;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:990px) {
     #container {
         display: block;
         width: fit-content;
     }
     #pilpasuoReitti{
-        width: fit-content;
+        width: 80%;
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:512px) {
     nav{
         width: 100vw;
     }
     .pilpasuoImg {
-        width: fit-content;
-        padding: 0;
+        width: 80%;
     }
 }
