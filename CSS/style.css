@@ -1,22 +1,15 @@
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 
-#navbarNavDropdown{
-    position: fixed;
-    right: 3%;
-}
 .carousel-inner img{
     height: 40vw;
-    
 }
 
 h2{
     text-align: center;
     padding-top: 10px;
 } 
-
 
 .cards img{
     width: 400px;
@@ -43,6 +36,4 @@ h2{
         width: 375px;
         padding-left: 0px;
     }
-
-
 }
