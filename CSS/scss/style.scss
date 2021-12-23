@@ -1,0 +1,53 @@
+$font-color: rgb(111, 105, 202);
+$bold-text: bold;
+$center-text: center;
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+@mixin styling{
+    text-align: center;
+    padding-top: 10px;
+}
+
+* {
+    font-family: $font; 
+}
+
+.carousel-inner img{
+    height: 40vw;
+}
+h5{
+    text-align: $center-text;
+}
+h2{
+    color: $font-color ;
+    @include styling();
+} 
+
+.cards img{
+    width: 400px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 5vw;
+    
+}
+h5 ~ p{
+    font-family: cursive;
+}
+
+@media screen and (max-width:1024px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 25vw;
+        margin-right: 25vw;
+    }
+}
+
+@media screen and (max-width:740) {
+    .cards {
+        width: 375px;
+        padding-left: 0px;
+    }
+}

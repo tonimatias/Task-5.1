@@ -1,0 +1,48 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.carousel-inner img {
+  height: 40vw;
+}
+
+h5 {
+  text-align: center;
+}
+
+h2 {
+  color: #6f69ca;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cards img {
+  width: 400px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 5vw;
+}
+
+h5 ~ p {
+  font-family: cursive;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 25vw;
+    margin-right: 25vw;
+  }
+}
+@media screen and (max-width: 740) {
+  .cards {
+    width: 375px;
+    padding-left: 0px;
+  }
+}
+
+/*# sourceMappingURL=built_styles.css.map */
